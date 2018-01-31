@@ -13,7 +13,7 @@ namespace Fisher.Bookstore.Controllers
 
         public IActionResult Index()
         {
-            return Content ("About controller’s Index action");
+            return View();
         }
 
         public IActionResult History()

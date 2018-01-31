@@ -13,7 +13,7 @@ namespace Fisher.Bookstore.Controllers
 
         public IActionResult Index()
         {
-            return Content ("Authors controller’s Index action");
+            return View();
         }
 
         public IActionResult Feautured()
