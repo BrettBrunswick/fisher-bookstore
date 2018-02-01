@@ -16,7 +16,7 @@ namespace Fisher.Bookstore.Controllers
             return View();
         }
 
-        public IActionResult Feautured()
+        public IActionResult Featured()
         {
             return Content ("Authors controller’s Featured action");
         }
